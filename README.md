@@ -8,7 +8,7 @@ Please see the README in the generated folder for further instructions to adapt 
 
 1) Install pipx https://github.com/pypa/pipx
 2) Install cookiecutter (`pipx install cookiecutter`) https://github.com/cookiecutter/cookiecutter
-3) Run: `cookiecutter gh:damondb/template-damon-db`
+3) Run: `cookiecutter gh:damondb/template-repo-damon-db`
 
 
 ## Template Maintenance Checklist
