@@ -18,7 +18,7 @@ Note: Sometimes you  need to run `npm install` manually from within the containe
 Install the required dependencies:
 - hugo (extended) version: see https://gohugo.io/installation/ 
 - dart-sass: see https://gohugo.io/functions/css/sass/#installing-in-a-development-environment or use `yay dart-sass`
-- postCSS: run `npm install`
+- postCSS: run `npm install` (requires nodejs to be installed)
 
 ## Development Setup
 

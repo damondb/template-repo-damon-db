@@ -16,5 +16,6 @@ Please see the README in the generated folder for further instructions to adapt 
 - [ ] Update list of previous workshops in `{{ cookiecutter.project_folder }}/pages/previous_workshops.md` (i.e., add info and link of last year's DaMoN)
 - [ ] Update version of dependencies in `{{ cookiecutter.project_folder }}/.github/workflows/hugo.yml` 
 - [ ] Update version of dependencies in `{{ cookiecutter.project_folder }}/.devcontainer/devcontainer.json` 
+- [ ] Update hugo modules by running `hugo mod get -u` (you have to be in the folder `{{ cookiecutter.project_folder }}`) 
 - [ ] Update parameters in `cookiecutter.json` of the template repository for the next year
 
