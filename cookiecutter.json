@@ -1,0 +1,12 @@
+{
+  "workshop_year": "2026",
+  "project_folder": "damon-db_{{ cookiecutter.workshop_year }}",
+  "workshop_number":  "22",
+  "workshop_date": "Monday June 1st, 2026", 
+  "conference_location": "Bengaluru, India",
+  "_copy_without_render": [
+      ".github/workflows/hugo.yaml",
+      "content/sections/5_papers.md",
+      "content/sections/7_steering_committee.md"
+    ]
+}

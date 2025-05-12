@@ -1,0 +1,47 @@
+baseURL = 'https://damondb.github.io/hugo-damon-db/'
+languageCode = 'en-us'
+title = 'DAMON {{ cookiecutter.workshop_year }} workshop'
+
+disableKinds = ["taxonomy", ]
+
+[params]
+# Optional change logo file
+  [params.logo]
+    small = "logo/DaMon_logo.png"
+#    large = "logo/DaMon_logo_20yrs.png"
+  [params.banner]
+    image = ""
+# Optional add sponsors
+#    [[params.banner.sponsors]]
+#      name = "SAP"
+       # make sure file exists in ./assets/img
+#      file = "img/sap_logo.png"
+#      style = "max-width: 400px"
+  [params.workshop]
+    number = "{{ cookiecutter.workshop_number }}"
+    title = "Data Management on New Hardware (DaMoN)"
+    date = "{{ cookiecutter.workshop_date }}"
+  [params.conference]
+    title = "ACM SIGMOD/PODS"
+    link = "https://{{ cookiecutter.workshop_year }}.sigmod.org/"
+    year = {{ cookiecutter.workshop_year }}
+    location = "{{ cookiecutter.conference_location }}" 
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+    [markup.goldmark.parser]
+      [markup.goldmark.parser.attribute]
+        block = true # default is false
+    [markup.goldmark.renderHooks]
+      [markup.goldmark.renderHooks.image]
+        enableDefault = true
+        errorLevel = 'warning' # ignore (default), warning, or error (fails the build)
+
+[module]
+  [[module.imports]]
+    path = "github.com/damondb/hugo-damon-db"
+
+[build]
+  writeStats = true
