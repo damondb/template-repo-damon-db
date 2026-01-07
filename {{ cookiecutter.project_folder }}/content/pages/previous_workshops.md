@@ -5,6 +5,7 @@ theme: "damon-dark"
 
 # Previous Workshops
 
+- [DaMoN 2026: Bengaluru, India](https://damon-db.github.io/2026/)
 - [DaMoN 2025: Berlin, Germany](https://damon-db.github.io/2025/)
 - [DaMoN 2024: Santiago, Chile](https://damon-db.github.io/2024/)
 - [DaMoN 2023: Seattle, WA, USA](https://sites.google.com/view/damon2023/)

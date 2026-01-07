@@ -50,4 +50,5 @@ Note: First configure github pages (See [Publishing](#publishing))
     - Source: GitHub Actions
 3) Configure the domain under `Settings/Pages`:
     - Custom domain: Remove the domain name from the old DaMoN repository and configure it in the new one
-    - Configure subdomain (`www.`): See https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site#configuring-a-subdomain
+    - If required, configure subdomain (`www.`): See https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site#configuring-a-subdomain
+4) Copy the folder `static/` from the old DaMoN repository to the new one. Delete the folder in old repository and commit+push the change.
