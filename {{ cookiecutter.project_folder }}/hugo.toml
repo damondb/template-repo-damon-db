@@ -1,4 +1,4 @@
-baseURL = 'https://damondb.github.io/hugo-damon-db/'
+baseURL = 'https://damondb.github.io/{{ cookiecutter.workshop_year }}/'
 languageCode = 'en-us'
 title = 'DAMON {{ cookiecutter.workshop_year }} workshop'
 
