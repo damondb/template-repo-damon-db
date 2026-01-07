@@ -1,4 +1,4 @@
-# Tempalte Repository - DaMoN Workshop Site
+# Template Repository - DaMoN Workshop Site
 
 This repository uses [cookiecutter](https://cookiecutter.readthedocs.io/en/stable/index.html) to help DaMoN workshop organizers to quickly create a new instance of the workshop website.
 
